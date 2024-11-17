@@ -11,7 +11,7 @@ The purpose of this document is to provide a simplified step-by-step guide for i
 
 
 ## Setting Up the Development Environment
-I will be showing javascript based example in this guide. So, it is needed to have a javascript development environment (e.g. nodejs). If you do not have one, you can get one setup quickly with these instruction. If you already have one - skip this section.    
+I will be showing javascript based example in this guide. So, it is needed to have a javascript development environment (e.g. nodejs). If you do not have one, you can get one setup quickly with these instruction (Linux environment). If you already have one - skip this section.    
 
     Install nodejs and npm
     yum install nodejs npm
@@ -41,7 +41,7 @@ Refer to [4] for setting up Bearer Authentication.
 
 5. Once you enter the secret, Click on the storage tab and you will be able to browse through the storage.    
 Create a new folder.
-6. Go to the "Folder Sub-Access Keys" abd click on "Create New".    
+6. Go to the "Folder Sub-Access Keys" tab and click on "Create New".    
 Select the newly created folder and click Submit.   
 Enter a name for the access keys and click Create.   
 A new set of sub-access key and secret will be displayed. Take note / Download it for safe storage.   
