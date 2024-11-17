@@ -31,11 +31,11 @@ Refer to [4] for setting up Bearer Authentication.
 3. Click on the Node that you want to use to transfer files to. 
 4. You will be asked to enter the secret to login to the node.  
 
-        How to get the secret?   
+`How to get the secret?   `
         
-        If you are using the default node created during service provisioning, then, the registered admin should have received an email with the secret.    
-          
-        If you are using on of nodes added by your admin, you may have to get the secret from the admin.
+`If you are using the default node created during service provisioning, then, the registered admin should have received an email with the secret.   `
+
+`If you are using on of nodes added by your admin, you may have to get the secret from the admin.`
 
 <center> <img src="./images/1.jpg" width="600" height="400"> </center>
 
