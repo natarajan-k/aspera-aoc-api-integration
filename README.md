@@ -1,7 +1,7 @@
 # Integrating Aspera On Cloud (AoC) with your Web Application
 Aspera provides different types of API options to integrate with your web applications.   
 There are already documents and references available that explain this in depth.   
-The purpose of this document is simply to provide a simplified step-by-step guide for integrating Aspera On Cloud with your Web Application using AsNode API.    
+The purpose of this document is to provide a simplified step-by-step guide for integrating Aspera On Cloud with your Web Application using Aspera Node API in javascript.    
 
 ## References
 1. [https://github.com/laurent-martin/aspera-api-examples](https://github.com/laurent-martin/aspera-api-examples)   
@@ -22,7 +22,7 @@ I will be showing javascript based example in this guide. So, it is needed to ha
 
 
 ## Setting Up Aspera On Cloud (AoC)
-We will create a folder and sub-access keys in AoC. This folder will be used to store all files uploaded via the web application. We will also use basic token authentication in this guide. You can alternatively use Bearer Authentication which is a bit more complex than this.   
+We will create a folder and sub-access key in AoC. This folder will be used to store all files uploaded via the web application. We will also use basic token authentication in this guide. You can alternatively use Bearer Authentication which is a bit more complex than this.   
 Refer to [4] for setting up Bearer Authentication.    
 [Click here to learn about sub-access key](https://demo.ibmaspera.com/help/primary_and_sub-access_keys)
 
@@ -32,8 +32,9 @@ Refer to [4] for setting up Bearer Authentication.
 4. You will be asked to enter the secret to login to the node.  
 
         How to get the secret?   
-
-        If you are using the default node created during service provisioning, then, the registered admin should have received an email with the secret.   
+        
+        If you are using the default node created during service provisioning, then, the registered admin should have received an email with the secret.    
+          
         If you are using on of nodes added by your admin, you may have to get the secret from the admin.
 
 <center> <img src="./images/1.jpg" width="600" height="400"> </center>
